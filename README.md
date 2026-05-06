@@ -19,7 +19,7 @@ This is a simple To-Do List web app made using HTML, CSS, and JavaScript.
 (Add your GitHub link here)
 
 ## 📸 Screenshot
-(Add screenshot image here)
+![app screenshot] (screenshot.png)
 
 ## 👩‍💻 Author
 Palak Mehra
