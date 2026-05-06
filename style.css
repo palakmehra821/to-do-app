@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI';
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Glass UI */
+.app {
+  backdrop-filter: blur(20px);
+  background: rgba(255,255,255,0.15);
+  padding: 20px;
+  width: 400px;
+  border-radius: 20px;
+  color: white;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-box {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+input, select {
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+li {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255,255,255,0.2);
+  cursor: grab;
+  transition: 0.3s;
+}
+
+li:hover {
+  transform: scale(1.05);
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Priority colors */
+.low { border-left: 5px solid green; }
+.medium { border-left: 5px solid orange; }
+.high { border-left: 5px solid red; }
+
+/* Dark Mode */
+.dark {
+  background: #0f172a;
+}

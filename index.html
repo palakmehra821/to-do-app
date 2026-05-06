@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ultimate To-Do</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="app">
+
+  <div class="top">
+    <h2>⚡ Ultimate To-Do</h2>
+    <button onclick="toggleMode()">🌗</button>
+  </div>
+
+  <div class="input-box">
+    <input type="text" id="taskInput" placeholder="Add task...">
+
+    <select id="priority">
+      <option>Low</option>
+      <option>Medium</option>
+      <option>High</option>
+    </select>
+
+    <button onclick="addTask()">+</button>
+  </div>
+
+  <ul id="taskList"></ul>
+
+</div>
+
+<!-- sound -->
+<audio id="tick" src="https://www.soundjay.com/buttons/sounds/button-09.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
