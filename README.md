@@ -16,7 +16,7 @@ This is a simple To-Do List web app made using HTML, CSS, and JavaScript.
 - JavaScript
 
 ## 🌐 Live Demo
-(Add your GitHub link here)
+ [click here to use the app](https://palakmehra821.github.io/to-do-app/)
 
 ## 📸 Screenshot
 ![app screenshot] (screenshot.png)
